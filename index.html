@@ -1,1 +1,33 @@
-<h1>hello world</h1>
+<html>
+    <h1>Form Attempt 1</h1>
+    <form action="/action_page.php">
+        <label for="fname">How many guns do you have?</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br> 
+    </form>
+    <h2>Poll attempt 1 but sort of 5. or maybe even 6.</h2>
+    <form action="/action_page.php" method="get">
+        <label for="mental"> R U mental?</label><br>
+        <input type="radio" id="mental" name="mental" value="yes">yes<br>
+        <input type="radio" id="mental" name="mental" value="no">no<br>
+        <div></div>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="-" selected>---</option>
+            <option value="Tank">Tank</option>
+            <option value="Triceratops">Triceratops</option>
+        </select>
+            <p id="mytext">Write a story</p>
+            <textarea name="message" rows="5" cols="20">The nuclear bomb was playing in the garden.</textarea><br>
+            <label for="scam">Put your entire hardrive here for free robux!</label>
+            <input type="file" id="scam" name="scam">
+            <p>Click here to submit</p>
+            <input type="image" src="Baby_Elephant.png" alt="submit" width="50">
+    </form>
+    <body>
+
+        <?php
+        echo "My first PHP script!";
+        ?>
+        
+    </body>
+</html>
